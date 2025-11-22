@@ -1,3 +1,6 @@
+library(dplyr)
+library(parsnip)
+library(broom)
 compare_models <- function(df, dep, indep_res, indep_unres)
 {
   linear_reg() |> 
